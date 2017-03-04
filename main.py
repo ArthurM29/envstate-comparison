@@ -49,7 +49,7 @@ env_difference = EnvironmentState.compare(env_state1, env_state2)
 txt_composer = TextComposer(env_difference)
 txt_composer.write_content(env1.upper(), env2.upper())
 
-# to keep the window opened until user hits a key to close
+# to keep the window opened until user enters a key to close
 input(5*"\n" + "Enter any key to exit ")
 
 
